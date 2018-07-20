@@ -452,6 +452,622 @@
 //end code cua bao
 
 //code cua quang
+// Gohan
+.gohan{
+	width: 100%;
+	height: 500px;
+	background: #f1f1f1;
+	h3{
+		padding-top: 3%;
+		font-weight: 600 ;
+		font-family: "Times New Roman", Times, serif;
+		p{
+			width: 10%;
+			height: 4px;
+			background: blue;
+			margin: 1% 45% 0% 45%;
+		}
+		hr{
+			width: 20%;
+			height: 1px;
+			background: #cacaca;
+			margin-top: -0.05%;
+		}
+	}
+	.card{ width: 100%; height: auto; }
+	.container{
+		.row{
+			.col-3{
+				a{
+					text-decoration: none;
+					display: block;
+					&:hover .card{
+						border: 0px solid;
+					    padding: 10px;
+					    box-shadow: 5px 10px #888888;
+					}
+					.card{
+						&:extend(.card);
+						img.tabema1{
+							width: 100%;
+							height: 180px;
+						}
+						img.tabema2{
+							width: 100%;
+							height: 150px;
+						}
+						img.tabema3{
+							width: 100%;
+							height: 120px;
+						}
+						img.tabema4{
+							width: 100%;
+							height: 190px;
+						}
+						.card-body{
+							h5{
+								color:black;
+								margin-top: -4%;
+								font-weight: 600 ;
+								font-family: "Times New Roman", Times, serif;
+							}
+							p{
+								color:yellow;
+								margin-top: -3%;
+							}
+							h4{
+								color: blue;
+								margin-top: -3%;
+								font-family: "Times New Roman", Times, serif;
+								font-weight: 600;
+							}
+						}
+					}					
+				}
+			}
+		}
+	}
+}
+//Ket Thuc Gohan
+// Hasamu
+.hasamu{
+		width: 100%;
+		height: 600px;
+		background: url(photo/bg-tour1.jpg);
+		background-size: cover;
+		float: left;
+		.container{
+			.row{
+				.col-left{
+					width: 100%;
+					height: 600px;
+					h3{
+						width: 100%;
+						margin-top: 5%;
+						color: #fff;
+						text-align: center;
+					}
+					.line-1{
+						width: 10%;
+						height: 2px;
+						background: #47A0FF;
+						margin: 0 auto;
+					}
+					.line-2{
+						width: 30%;
+						height: 2px;
+						background: gray;
+						margin: 0 auto;
+						margin-bottom: 5%;
+					}
+					.tour-type{
+						display: block;
+						width: 365px;
+						height: 365px;
+						margin: 0 auto;
+						background: url(photo/4.tour-type.png);
+						background-size: cover;
+						position: relative;
+						transition: ease-in-out 1s;
+						img{
+							position: relative;
+							left: 70px;
+							top: 150px;
+						}
+						&:hover{
+							transform: rotate(360deg);
+							transition: ease-in-out 1s;
+							
+							img{
+								display: none;
+							}
+						}				
+				}
+				.box-icon-text{
+					width: 40%;
+					height: 80px;
+					margin-top: 20px;
+					float: right;	
+							
+					span{
+						width: 30%;
+						height: 100%;
+						float: left;
+					}
+					i{
+						width: 60px;
+						height: 60px;
+						background: #01b7f2;
+						color: #fff;
+						border-radius: 50%;
+						line-height: 60px;
+						text-align: center;
+						font-size: 14px;
+
+					}	
+					h6{
+						color: #fff;
+						width: 70%;
+						height: 100%;
+						float: left;
+						padding-top: 5px;
+						padding-right: 10px;
+						color: #01b7f2;					
+						p{
+							font-size: 11px;
+							color: #fff;
+							padding-top: 15px;
+							float: left;
+						}
+					}						
+				}
+				.bit-1{
+					position: absolute;
+					width: 40%;
+					bottom: 120px;
+					left: 0px;
+					h6{
+						text-align: right;
+					}
+			
+					
+				}
+				.bit-2{
+					position: absolute;
+					bottom: 120px;
+					right: 0;
+					h6{
+						text-align: left;
+						padding-left: 20px;
+					}
+					span{
+						text-align: right;
+					}
+				}
+				.bit-3{
+					position: absolute;
+					top: 120px;
+					right: 0;
+					h6{
+						text-align: left;
+						padding-left: 20px;
+					}
+					span{
+						text-align: right;
+					}
+				}
+				.bit-4{
+					position: absolute;
+					top: 120px;
+					left: 0;
+					h6{
+						text-align: right;
+					}
+				}
+			}
+		}
+		.col-right{
+			width: 100%;
+			height: 600px;
+			.search-form{
+				width: 70%;
+				margin: 0 auto;
+				height: 500px;
+				border: solid #fff 2px;
+				border-radius: 20px;
+				margin-top: 50px;
+				h4{
+					width: 96%;
+					margin: 0 auto;
+					padding-top: 30px;
+					padding-bottom: 20px;
+					font-weight: 700	;
+					color: #fff;
+					text-align: center;
+					border-bottom: solid 1px gray;
+				}
+				h6{
+					width: 50%;
+					text-align: center;
+					margin: 0 auto;
+					color: #00b6f1;
+				}
+				#tourname{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					margin-top: 10px;
+					padding-left: 20px;
+					color: #000;
+					position: relative;
+				}
+				#tourtype{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #000;
+					margin-top: 10px;
+				}
+				#tourdestmin{
+					width: 96%;
+					height: 50px;
+					background: #f2f2f2;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #000;
+					margin-top: 10px;
+				}
+				button{
+					width: 96%;
+					height: 50px;
+					background: #00b6f1;
+					border: none;
+					border-radius: 7px;
+					margin-left: 2%;
+					padding-left: 20px;
+					color: #fff;
+					margin-top: 10px;
+					font-weight: bold;
+					transition: ease-in-out 1s;
+					&:hover{
+						background: #000;
+						border: 2px solid #fff;
+						color: #00b6f1;
+						transition: ease-in-out 1s;
+					}
+				}
+			}
+		}
+	}
+}
+//Ket thuc Hasamu
+//watashi
+.watashi{
+	width: 100%;
+	height: 400px;
+	h3{
+		color :black;
+		padding-top: 4%;
+		font-weight: 600 ;
+		font-family: "Times New Roman", Times, serif;
+		p{
+			width: 10%;
+			height: 4px;
+			background: blue;
+			margin: 1% 45% 0% 45%;
+		}
+		hr{
+			width: 20%;
+			height: 1px;
+			background: #cacaca;
+			margin-top: -0.05%;
+		}
+	}
+	.carousel{
+		height: 250px;
+		ol{
+			li{
+				background: #5693d4;
+				width: 10px;
+				height: 10px;
+			}
+		}
+		.carousel-inner{
+			.carousel-item{
+				a{
+					text-decoration: none;
+				}
+				.col-2{
+					img{
+						width: 70%;
+						height: 140px;
+						border-radius: 50%;
+						margin-left: 15%;
+					}
+				}
+				.col-6{
+					p{
+						margin-top: 2%;
+						font-family: "Times New Roman", Times, serif;
+						font-weight: 600;
+						color: black;
+					}	
+				}
+			}
+		}
+	}
+}
+//Ket thuc watashi
+// Dagaku
+.dagaku{
+	width: 100%;
+	height: 500px;
+	background-image: url();
+	background-color: rgba(7, 37, 63, 0.8);
+	.container{
+		.row{
+			.col-6{
+				h3{
+					color:white;
+					margin-top: 13%;
+					font-family: "Times New Roman", Times, serif;
+					font-weight: 800;
+					margin-bottom: 7%;
+				}
+				p{
+					color:white;
+				}
+				h4{
+					font-family: "Times New Roman", Times, serif;
+					font-weight: 800;
+					color:white;
+					margin-right: 50%;
+				}
+				button{
+					font-family: "Times New Roman", Times, serif;
+					font-weight: 800;
+					color:white;
+					background: none;
+					border: 2px solid white;
+					&:hover{
+						background: #56c5d4;
+					}
+				}
+			}
+			.col-6{
+				.hovereffect {
+					margin-top: 75px;
+					width: 100%;
+					height: 350px;
+					overflow: hidden;
+					position: relative;
+					cursor: default;
+				}
+				.hovereffect .overlay {
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					overflow: hidden;
+					top: 0;
+					left: 0;
+					padding: 3em;
+					text-align: center;
+				}
+				.hovereffect img {
+					display: block;
+					position: relative;
+					max-width: none;
+					width: calc(100% + 60px);
+					height: 100%;
+					-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+					transition: opacity 0.35s, transform 0.45s;
+					-webkit-transform: translate3d(-40px,0,0);
+					transform: translate3d(-40px,0,0);
+				}
+				.hovereffect .overlay:before {
+					position: absolute;
+					top: 20px;
+					right: 20px;
+					bottom: 20px;
+					left: 20px;
+					border: 1px solid #fff;
+					content: '';
+					opacity: 0;
+					filter: alpha(opacity=0);
+					-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+					transition: opacity 0.35s, transform 0.45s;
+					-webkit-transform: translate3d(-20px,0,0);
+					transform: translate3d(-20px,0,0);
+				}
+				.hovereffect a, .hovereffect p {
+					margin-top: 220px;
+					color:#e9f1e3;
+					font-weight: 800;
+					opacity: 0;
+					filter: alpha(opacity=0);
+					-webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+					transition: opacity 0.35s, transform 0.45s;
+					-webkit-transform: translate3d(-10px,0,0);
+					transform: translate3d(-10px,0,0);
+				}
+				.hovereffect:hover img {
+					opacity: 0.6;
+					filter: alpha(opacity=60);
+					-webkit-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+				.hovereffect:hover .overlay:before,.hovereffect:hover a, .hovereffect:hover p {
+					opacity: 1;
+					filter: alpha(opacity=100);
+					-webkit-transform: translate3d(0,0,0);
+					transform: translate3d(0,0,0);
+				}
+			}
+		}
+	}
+}
+// ket thuc dagaku
+//Reponsize
+@media screen and (max-width: 1024px){
+	.hasamu{
+		.container{
+			.row{
+				.bit-1{
+					width: 35%;
+					left: 10px;
+					bottom: 130;
+				}
+				.bit-2{
+					width: 35%;	
+					right: 10px;
+					bottom: 130px;
+				}
+				.bit-3{
+					width: 35%;	
+					right: 10px;
+					top: 110px;		
+				}
+				.bit-4{
+					width: 35%;	
+					left: 10px;
+					top: 110px;						
+				}
+			}
+		}		
+	}
+}
+@media screen and (max-width: 768px){
+	.watashi{
+		h3{
+			padding-top: 8%;
+		}
+		.carousel{
+			.carousel-inner{
+				.carousel-item{
+
+					.col-2{
+						img{
+							height: 80px;
+						}
+					}
+				}
+			}
+		}	
+	}
+	.hasamu{
+		.container{
+			.row{
+				.col-left{
+					h3{
+						margin-left: 60%;
+					}
+					.line-1, .line-2{
+						display: none;
+					}
+					padding-top: 6%;
+					padding-left: 25%;
+				}
+				.bit-1{
+					display: none;
+				}
+				.bit-2{
+					display: none;
+				}
+				.bit-3{
+					display: none;
+				}
+				.bit-4{
+					display: none;
+				}
+				.col-right{
+					.search-form{
+						h4{
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
+	.watashi{
+		.carousel{
+			.carousel-inner{
+				.carousel-item{
+					a{
+						.row{
+							.col-6{
+								p{
+									font-weight: none;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.dagaku{
+		.container{
+			.row{
+				.col-6{
+					p{
+						span{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 414px){
+	.gohan{
+		height: 300px;
+		.container{
+			.row{
+				.col-3{
+					a{
+						.card{
+							.card-body{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.hasamu{
+		.container{
+			.row{
+				.col-lg-8{
+					display: none;
+				}
+				.col-left{
+					.tour-type{
+						margin-right: 60px;
+					}
+				}
+			}
+		}	
+	}
+	.watashi{
+		max-width: 414px
+	}
+	.dagaku{
+		max-width: 414px
+	}
+}
+//Ket thuc Reponsize
 //end code cua quang
 
 //code cua dieu
